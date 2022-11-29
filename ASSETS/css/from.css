@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+select{
+    padding: 10px;
+    width: 100%;
+}
+
+h4 {
+    color: #fff;
+}
+
+h4 > span  {
+    color: red;
+}
+.card {
+    border: 3px solid;
+    width: 100%;
+    margin-top: 50px;
+    background-image: url(../img/wallpaper.jpg);
+    background-position: top;
+    background-color: black;
+}
+
+.bg {
+    margin: 0;
+    padding-top: 90px;
+    padding-bottom: 20%;
+    background-image: linear-gradient(to bottom right, rgb(0, 217, 255), rgb(30, 3, 82));
+    /* background-image: linear-gradient(rgb(247, 0, 255), rgb(120, 2, 255), rgb(67, 25, 255)); */
+}
+
+@media screen and (max-width : 576px) {
+    .card {
+        display: block;
+    }
+}

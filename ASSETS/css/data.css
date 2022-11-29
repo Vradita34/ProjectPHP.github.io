@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.mx-auto {
+    margin-top: 5%;
+    padding-top: 2%;
+    width: 1200px;
+}
+.card {
+    width: 100%;
+    margin-top: 10px;
+    background-image: url(../img/wallpaper.jpg);
+    background-position: top;
+}
+.bg {
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 800px;
+    background-image: linear-gradient(to bottom right, #5272ff, rgb(33, 2, 53));
+    /* background-image: linear-gradient(rgb(247, 0, 255), rgb(120, 2, 255), rgb(67, 25, 255)); */
+}
+select{
+    padding: 10px;
+    width: 100%;
+}
+h4 {
+    color: white;
+}
+h4 > span {
+    color: rgb(246, 250, 1);
+}
