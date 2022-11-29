@@ -29,11 +29,7 @@ h4 > span  {
     padding-top: 90px;
     padding-bottom: 20%;
     background-image: linear-gradient(to bottom right, rgb(0, 217, 255), rgb(30, 3, 82));
-    /* background-image: linear-gradient(rgb(247, 0, 255), rgb(120, 2, 255), rgb(67, 25, 255)); */
 }
 
-@media screen and (max-width : 576px) {
-    .card {
-        display: block;
-    }
+
 }
