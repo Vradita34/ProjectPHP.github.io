@@ -33,10 +33,6 @@ include_once 'function.php';
             <div class="card">
                 <div class="card-header text-white bg-danger">
                     Data Mahasiswa
-                    <form class="d-flex" method="POST">
-                        <input class="form-control me-2" name="" type="search" placeholder="Cari disini" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit" value="search" name="">Search</button>
-                    </form>
                 </div>
                 <div class="card-body">
                     <table class="table">
